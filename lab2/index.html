@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 2 (PHP)</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        .back-button {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: var(--card-bg);
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+            border-color: var(--primary-color);
+            color: var(--primary-hover);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← На главную</a>
+
+        <header class="header">
+            <h1>Лабораторная работа 2 (PHP)</h1>
+            <p>Циклы и функции</p>
+        </header>
+
+        <main class="grid-container">
+            <a href="for.php" class="card">
+                <h2>Задание 1</h2>
+                <p>Цикл for</p>
+            </a>
+
+            <a href="while.php" class="card">
+                <h2>Задание 2</h2>
+                <p>Цикл while</p>
+            </a>
+
+            <a href="table.php" class="card">
+                <h2>Задание 3</h2>
+                <p>Таблица умножения</p>
+            </a>
+
+            <a href="menu.php" class="card">
+                <h2>Задание 4</h2>
+                <p>Меню (foreach)</p>
+            </a>
+
+            <a href="functions.php" class="card">
+                <h2>Задание 5</h2>
+                <p>swap и map</p>
+            </a>
+
+            <a href="gettable.php" class="card">
+                <h2>Задание 6</h2>
+                <p>Функция getTable</p>
+            </a>
+
+            <a href="getmenu.php" class="card">
+                <h2>Задание 7</h2>
+                <p>Функция getMenu</p>
+            </a>
+        </main>
+
+        <footer class="footer">
+           <p>© 2026 Все права на приколе. Выполнил студент хайповой группы 41ПМ, Баранов Роман</p>
+        </footer>
+    </div>
+</body>
+</html>

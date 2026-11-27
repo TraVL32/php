@@ -1,5 +1,5 @@
 <?php
-// ЗАДАНИЕ 1
+
 $age = 20;
 ?>
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ $age = 20;
 <body>
 	<h1>Конструкции if-elseif-else</h1>
 	<?php
-	// ЗАДАНИЕ 2
+
 	if ($age >= 18 && $age <= 59) {
 		echo 'Вам ещё работать и работать';
 	} elseif ($age > 59) {

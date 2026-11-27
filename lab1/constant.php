@@ -1,7 +1,7 @@
 <?php
-// ЗАДАНИЕ 1
+
 const SITE_NAME = 'Мой сайт';
-// или: define('SITE_NAME', 'Мой сайт');
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">

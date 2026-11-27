@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 4 (PHP)</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        .back-button {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: var(--card-bg);
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+            border-color: var(--primary-color);
+            color: var(--primary-hover);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← На главную</a>
+
+        <header class="header">
+            <h1>Лабораторная работа 4 (PHP)</h1>
+            <p>GET, POST и обработка форм</p>
+        </header>
+
+        <main class="grid-container">
+            <a href="index.php" class="card">
+                <h2>Задание 1</h2>
+                <p>Метод GET и обработка запроса</p>
+            </a>
+
+            <a href="index.php?id=table" class="card">
+                <h2>Задание 2</h2>
+                <p>Метод POST: таблица умножения</p>
+            </a>
+
+            <a href="calculator.php" class="card">
+                <h2>Задание 3</h2>
+                <p>Он-лайн калькулятор</p>
+            </a>
+        </main>
+
+        <footer class="footer">
+           <p>© 2026 Все права на приколе. Выполнил студент хайповой группы 41ПМ, Баранов Роман</p>
+        </footer>
+    </div>
+</body>
+</html>

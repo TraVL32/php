@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа 5 (PHP)</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        .back-button {
+            display: inline-block;
+            margin-bottom: 30px;
+            padding: 10px 20px;
+            background-color: var(--card-bg);
+            color: var(--primary-color);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .back-button:hover {
+            transform: translateX(-5px);
+            border-color: var(--primary-color);
+            color: var(--primary-hover);
+        }
+
+        .header h1 {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← На главную</a>
+
+        <header class="header">
+            <h1>Лабораторная работа 5 (PHP)</h1>
+            <p>Файлы, загрузка, галерея и e-mail</p>
+        </header>
+
+        <main class="grid-container">
+            <a href="file.php" class="card">
+                <h2>Задание 1</h2>
+                <p>Гостевая книга (работа с файлами)</p>
+            </a>
+
+            <a href="upload.php" class="card">
+                <h2>Задание 2</h2>
+                <p>Загрузка файлов на сервер</p>
+            </a>
+
+            <a href="upload/" class="card">
+                <h2>Задание 3</h2>
+                <p>Галерея изображений</p>
+            </a>
+
+            <a href="site/index.php?id=contact" class="card">
+                <h2>Задание 4</h2>
+                <p>Обратная связь (mail)</p>
+            </a>
+        </main>
+
+        <footer class="footer">
+           <p>© 2026 Все права на приколе. Выполнил студент хайповой группы 41ПМ, Баранов Роман</p>
+        </footer>
+    </div>
+</body>
+</html>

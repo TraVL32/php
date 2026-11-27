@@ -1,5 +1,5 @@
 <?php
-// ЗАДАНИЕ 1
+
 $day = 3;
 ?>
 <!DOCTYPE html>
@@ -13,7 +13,7 @@ $day = 3;
 <body>
 	<h1>Конструкция switch</h1>
 	<?php
-	// ЗАДАНИЕ 2
+
 	switch ($day) {
 		case 1:
 		case 2:
